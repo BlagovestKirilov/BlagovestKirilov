@@ -80,4 +80,5 @@ A full-stack application for venues to manage menu templates and generate filled
 ## 📫 Get in Touch
 
 - **GitHub**: [github.com/BlagovestKirilov](https://github.com/BlagovestKirilov)
-- **Email**: blagovestkirilov1@gmail.com
+- **Email**: blagovestkirilov1@gmail.comhttps://www.linkedin.com/in/blagovestkirilov/
+- **LinkedIn**: [linkedin.com/BlagovestKirilov](https://www.linkedin.com/in/blagovestkirilov/)
