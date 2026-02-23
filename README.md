@@ -21,7 +21,7 @@ I enjoy turning ideas into production-ready systems — from real-time multiplay
 ## 🚀 Projects
 
 ### [🃏 SantaseService](https://github.com/BlagovestKirilov/santase-service)
-Backend for [deck.bg](https://deck.bg) — a real-time online multiplayer platform for **Santase** (Sixty-Six), the popular Bulgarian two-player trick-taking card game.
+[deck.bg](https://deck.bg) — a real-time online multiplayer platform for **Santase** (Sixty-Six), the popular Bulgarian two-player trick-taking card game.
 
 - Real-time gameplay via **WebSockets (STOMP + SockJS)** with full rule enforcement
 - Matchmaking queue, inactivity handling, and turn timers
