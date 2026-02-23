@@ -77,15 +77,7 @@ A full-stack application for venues to manage menu templates and generate filled
 
 ---
 
-## 📊 GitHub Stats
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=BlagovestKirilov&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BlagovestKirilov&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-</p>
-
----
-
 ## 📫 Get in Touch
 
 - **GitHub**: [github.com/BlagovestKirilov](https://github.com/BlagovestKirilov)
+- **Email**: blagovestkirilov1@gmail.com
