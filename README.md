@@ -29,7 +29,19 @@ I enjoy turning ideas into production-ready systems — from real-time multiplay
 - JWT auth, Liquibase migrations, rate-limited Nginx reverse proxy
 - **CI/CD**: GitHub Actions → Docker Hub → AWS EC2
 - **Stack**: Java 25 · Spring Boot 4 · PostgreSQL · Docker · Nginx · Virtual Threads
+  
+---
 
+### [🍽 MenuCraft](https://github.com/BlagovestKirilov/MenuCraft)
+[menucraft.online](https://menucraft.online) — A full-stack application for venues to manage menu templates and generate filled PDF menus.
+
+- PDF generation via **Apache PDFBox** using AcroForm field mapping
+- Menu generation history with regeneration support
+- **Facebook Page integration** — OAuth flow for publishing posts directly to venue pages
+- Role-based access (Admin / Company) with JWT auth
+- **Stack**: Java 25 · Spring Boot 4 · React (Vite) · PostgreSQL
+- Only Admins can register new companies for now!
+  
 ---
 
 ### [📺 WolfTV](https://github.com/BlagovestKirilov/WolfTV)
@@ -63,17 +75,6 @@ A full-stack social photo-sharing web application with server-rendered UI.
 - Community pages with photo galleries and discovery suggestions
 - Admin panel for content moderation, user bans, and report review
 - **Stack**: Java 17 · Spring Boot 3 · Thymeleaf · MySQL · AWS S3
-
----
-
-### [🍽 MenuCraft](https://github.com/BlagovestKirilov/MenuCraft)
-A full-stack application for venues to manage menu templates and generate filled PDF menus.
-
-- PDF generation via **Apache PDFBox** using AcroForm field mapping
-- Menu generation history with regeneration support
-- **Facebook Page integration** — OAuth flow for publishing posts directly to venue pages
-- Role-based access (Admin / Company) with JWT auth
-- **Stack**: Java 25 · Spring Boot 4 · React (Vite) · PostgreSQL
 
 ---
 
