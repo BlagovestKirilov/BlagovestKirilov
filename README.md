@@ -4,7 +4,7 @@ Java backend developer building real-world applications with **Spring Boot**, **
 
 I enjoy turning ideas into production-ready systems — from real-time multiplayer games and live TV streaming to vehicle management platforms and social apps.
 
-🌐 **[blagovestkirilov.github.io/BlagovestKirilovPersonalPage](https://blagovestkirilov.github.io/BlagovestKirilovPersonalPage/)**
+🌐 **[My Personal Page](https://blagovestkirilov.github.io/BlagovestKirilovPersonalPage/)**
 
 ---
 
