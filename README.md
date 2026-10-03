@@ -1,6 +1,6 @@
 # Hey, I'm Blagovest 👋
 
-Java backend developer building real-world applications with **Spring Boot**, **PostgreSQL**, and modern deployment pipelines.
+Java backend developer building real-world applications with **Spring Boot**, **PostgreSQL**, and modern deployment pipelines — and the **React** frontends that sit on top of them.
 
 I enjoy turning ideas into production-ready systems — from real-time multiplayer games and live TV streaming to vehicle management platforms and social apps.
 
@@ -12,6 +12,8 @@ I enjoy turning ideas into production-ready systems — from real-time multiplay
 
 **Languages & Frameworks:** Java · Spring Boot · Spring Security · Spring Data JPA · Spring WebSocket (STOMP)
 
+**Frontend:** React · TypeScript · Vite
+
 **Databases & Caching:** PostgreSQL · MySQL · Redis · H2
 
 **Infrastructure:** Docker · Docker Compose · Nginx · AWS EC2 · GitHub Actions CI/CD
@@ -22,16 +24,19 @@ I enjoy turning ideas into production-ready systems — from real-time multiplay
 
 ## 🚀 Projects
 
-### [🃏 SantaseService](https://github.com/BlagovestKirilov/santase-service)
-[deck.bg](https://deck.bg) — a real-time online multiplayer platform for **Santase** (Sixty-Six), the popular Bulgarian two-player trick-taking card game.
+### [🃏 deck.bg](https://deck.bg)
+A real-time online multiplayer platform for traditional Bulgarian games — **Santase** (Sixty-Six), the two-player trick-taking card game, and **Tabla**, Bulgarian backgammon.
+
+**Repositories:** [deck.bg-backend](https://github.com/BlagovestKirilov/deck.bg-backend) · [deck.bg-frontend](https://github.com/BlagovestKirilov/deck.bg-frontend)
 
 - Real-time gameplay via **WebSockets (STOMP + SockJS)** with full rule enforcement
 - Matchmaking queue, inactivity handling, and turn timers
 - **Elo-based ranking system** with placement phase and tier progression (Bronze → Legend)
+- **React + TypeScript frontend** (Vite), talking to the backend over REST and STOMP
 - JWT auth, Liquibase migrations, rate-limited Nginx reverse proxy
-- **CI/CD**: GitHub Actions → Docker Hub → AWS EC2
-- **Stack**: Java 25 · Spring Boot 4 · PostgreSQL · Docker · Nginx · Virtual Threads
-  
+- **CI/CD**: GitHub Actions → Docker Hub → AWS EC2, for both the backend and the frontend
+- **Stack**: Java 25 · Spring Boot 4 · React · TypeScript · PostgreSQL · Docker · Nginx · Virtual Threads
+
 ---
 
 ### [🍽 MenuCraft](https://github.com/BlagovestKirilov/MenuCraft)
@@ -43,7 +48,7 @@ I enjoy turning ideas into production-ready systems — from real-time multiplay
 - Role-based access (Admin / Company) with JWT auth
 - **Stack**: Java 25 · Spring Boot 4 · React (Vite) · PostgreSQL
 - Only Admins can register new companies for now!
-  
+
 ---
 
 ### [📺 WolfTV](https://github.com/BlagovestKirilov/WolfTV)
@@ -79,7 +84,6 @@ A full-stack social photo-sharing web application with server-rendered UI.
 - **Stack**: Java 17 · Spring Boot 3 · Thymeleaf · MySQL · AWS S3
 
 ---
-
 
 ## 📫 Get in Touch
 
