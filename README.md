@@ -24,7 +24,7 @@ I enjoy turning ideas into production-ready systems — from real-time multiplay
 
 ## 🚀 Projects
 
-### [🃏 deck.bg](https://deck.bg)
+### [♠️ deck.bg](https://deck.bg)
 A real-time online multiplayer platform for traditional Bulgarian games — **Santase** (Sixty-Six), the two-player trick-taking card game, and **Tabla**, Bulgarian backgammon.
 
 **Repositories:** [deck.bg-backend](https://github.com/BlagovestKirilov/deck.bg-backend) · [deck.bg-frontend](https://github.com/BlagovestKirilov/deck.bg-frontend)
