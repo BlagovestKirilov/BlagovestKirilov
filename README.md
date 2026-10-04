@@ -24,7 +24,7 @@ I enjoy turning ideas into production-ready systems — from real-time multiplay
 
 ## 🚀 Projects
 
-### [♠️ deck.bg](https://deck.bg)
+### ♠️ [deck.bg](https://deck.bg)
 A real-time online multiplayer platform for traditional Bulgarian games — **Santase** (Sixty-Six), the two-player trick-taking card game, and **Tabla**, Bulgarian backgammon.
 
 **Repositories:** [deck.bg-backend](https://github.com/BlagovestKirilov/deck.bg-backend) · [deck.bg-frontend](https://github.com/BlagovestKirilov/deck.bg-frontend)
@@ -39,7 +39,7 @@ A real-time online multiplayer platform for traditional Bulgarian games — **Sa
 
 ---
 
-### [🍽 MenuCraft](https://github.com/BlagovestKirilov/MenuCraft)
+### 🍽 [MenuCraft](https://github.com/BlagovestKirilov/MenuCraft)
 [menucraft.online](https://menucraft.online) — A full-stack application for venues to manage menu templates and generate filled PDF menus.
 
 - PDF generation via **Apache PDFBox** using AcroForm field mapping
@@ -51,7 +51,7 @@ A real-time online multiplayer platform for traditional Bulgarian games — **Sa
 
 ---
 
-### [📺 WolfTV](https://github.com/BlagovestKirilov/WolfTV)
+### 📺 [WolfTV](https://github.com/BlagovestKirilov/WolfTV)
 A live TV streaming backend that records and re-streams channels via **HLS** using FFmpeg.
 
 - Dynamic M3U8 playlist generation with automatic segment cleanup
@@ -63,7 +63,7 @@ A live TV streaming backend that records and re-streams channels via **HLS** usi
 
 ---
 
-### [🚗 CarMate](https://github.com/BlagovestKirilov/CarMate)
+### 🚗 [CarMate](https://github.com/BlagovestKirilov/CarMate)
 A REST API for Bulgarian vehicle owners to manage and monitor their cars — insurance, vignettes, technical reviews, obligations, expenses, and trip sheets.
 
 - Integrates with **Bulgarian government APIs** (BG Toll, Guarantee Fund, GTP) for automated document status checks
@@ -74,7 +74,7 @@ A REST API for Bulgarian vehicle owners to manage and monitor their cars — ins
 
 ---
 
-### [📸 PhotoApp](https://github.com/BlagovestKirilov/PhotoApp)
+### 📸 [PhotoApp](https://github.com/BlagovestKirilov/PhotoApp)
 A full-stack social photo-sharing web application with server-rendered UI.
 
 - Photo uploads to **AWS S3** with likes, comments, and reporting system
