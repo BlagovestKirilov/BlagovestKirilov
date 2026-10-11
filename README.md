@@ -10,13 +10,13 @@ I enjoy turning ideas into production-ready systems — from real-time multiplay
 
 ## 🛠 Tech Stack
 
-**Languages & Frameworks:** Java · Spring Boot · Spring Security · Spring Data JPA · Spring WebSocket (STOMP)
+**Languages & Frameworks:** Java · Spring Boot · Spring Security · Spring Data JPA · Spring WebSocket (STOMP) · Node.js (Express)
 
 **Frontend:** React · TypeScript · Vite
 
 **Databases & Caching:** PostgreSQL · MySQL · Redis · H2
 
-**Infrastructure:** Docker · Docker Compose · Nginx · AWS EC2 · GitHub Actions CI/CD
+**Infrastructure:** Docker · Docker Compose · Nginx · AWS EC2 · Fly.io · GitHub Actions CI/CD
 
 **Integrations & Tools:** FFmpeg · AWS S3 · Expo Push Notifications · Liquibase · Swagger/OpenAPI · MapStruct · Lombok
 
@@ -36,6 +36,21 @@ A real-time online multiplayer platform for traditional Bulgarian games — **Sa
 - JWT auth, Liquibase migrations, rate-limited Nginx reverse proxy
 - **CI/CD**: GitHub Actions → Docker Hub → AWS EC2, for both the backend and the frontend
 - **Stack**: Java 25 · Spring Boot 4 · React · TypeScript · PostgreSQL · Docker · Nginx · Virtual Threads
+
+---
+
+### 📡 [StreamVault IPTV](https://streamvault.fly.dev/configure)
+A **Stremio addon** that brings live TV into Stremio from an **Xtream Codes** account or an **M3U playlist** — on PC, Android, iOS, and TV.
+
+**Repository:** [StreamVault](https://github.com/BlagovestKirilov/StreamVault)
+
+- **1K+ installs**, 14K+ streams played, and 20K+ channel searches since May 2026
+- TV guide (**EPG**) showing what's on now and next, for Xtream Codes sources
+- Channel search and category filters to keep the library clean
+- Connection test before installing, so bad credentials are caught early
+- Large playlists are streamed and parsed instead of loaded whole
+- **CI/CD**: GitHub Actions → Docker → Fly.io
+- **Stack**: Node.js · Express · Docker · Fly.io · Jest
 
 ---
 
