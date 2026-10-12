@@ -55,7 +55,7 @@ A **Stremio addon** that brings live TV into Stremio from an **Xtream Codes** ac
 ---
 
 ### 🍽 [MenuCraft](https://github.com/BlagovestKirilov/MenuCraft)
-[menucraft.online](https://menucraft.online) — A full-stack application for venues to manage menu templates and generate filled PDF menus.
+A full-stack application for venues to manage menu templates and generate filled PDF menus.
 
 - PDF generation via **Apache PDFBox** using AcroForm field mapping
 - Menu generation history with regeneration support
