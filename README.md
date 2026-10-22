@@ -44,7 +44,7 @@ A **Stremio addon** that brings live TV into Stremio from an **Xtream Codes** ac
 
 **Repository:** [StreamVault](https://github.com/BlagovestKirilov/StreamVault)
 
-- **1K+ installs**, 14K+ streams played, and 20K+ channel searches since May 2026
+- **2K+ installs**, 20K+ streams played, and 25K+ channel searches since May 2026
 - TV guide (**EPG**) showing what's on now and next, for Xtream Codes sources
 - Channel search and category filters to keep the library clean
 - Connection test before installing, so bad credentials are caught early
