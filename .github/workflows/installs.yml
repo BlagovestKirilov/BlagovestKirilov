@@ -2,7 +2,7 @@ name: Update StreamVault installs
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # every day at 06:00 UTC
+    - cron: "0 5 * * *"   # every day at 05:00 UTC
   workflow_dispatch:       # "Run workflow" button for a manual update
 
 permissions:
