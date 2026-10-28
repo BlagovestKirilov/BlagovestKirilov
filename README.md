@@ -42,9 +42,9 @@ A real-time online multiplayer platform for traditional Bulgarian games — **Sa
 ### 📡 [StreamVault IPTV](https://streamvault.fly.dev/configure)
 An addon that brings live TV into **Stremio** and **Nuvio** from an **Xtream Codes** account or an **M3U playlist** — on PC, Android, iOS, and TV.
 
-**Repository:** [StreamVault](https://github.com/BlagovestKirilov/StreamVault) &nbsp; ![Installs](https://img.shields.io/endpoint?url=https%3A%2F%2Fstreamvault.fly.dev%2Fbadge%2Finstalls.json&style=flat-square&cacheSeconds=3600)
+**Repository:** [StreamVault](https://github.com/BlagovestKirilov/StreamVault)
 
-- **3K+ installs**, 24K+ streams played, and 29K+ channel searches since May 2026
+- ![Installs](https://img.shields.io/endpoint?url=https%3A%2F%2Fstreamvault.fly.dev%2Fbadge%2Finstalls.json&style=flat-square&cacheSeconds=3600) — 24K+ streams played and 29K+ channel searches since May 2026
 - TV guide (**EPG**) showing what's on now and next, for Xtream Codes sources
 - **Catch-up** — watch recorded programmes from the past days, by programme or by hour
 - Channel search that works across Latin and Cyrillic, plus category filters
