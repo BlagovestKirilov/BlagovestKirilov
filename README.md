@@ -44,7 +44,7 @@ An addon that brings live TV into **Stremio** and **Nuvio** from an **Xtream Cod
 
 **Repository:** [StreamVault](https://github.com/BlagovestKirilov/StreamVault)
 
-- ![Installs](https://img.shields.io/endpoint?url=https%3A%2F%2Fstreamvault.fly.dev%2Fbadge%2Finstalls.json&style=flat-square&cacheSeconds=3600) — 24K+ streams played and 29K+ channel searches since May 2026
+- **<!--installs-->2K+<!--/installs--> installs**, 24K+ streams played, and 29K+ channel searches since May 2026
 - TV guide (**EPG**) showing what's on now and next, for Xtream Codes sources
 - **Catch-up** — watch recorded programmes from the past days, by programme or by hour
 - Channel search that works across Latin and Cyrillic, plus category filters
