@@ -1,0 +1,28 @@
+name: Update StreamVault installs
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # every day at 06:00 UTC
+  workflow_dispatch:       # "Run workflow" button for a manual update
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Write the install count into the README
+        run: |
+          n=$(curl -fsS https://streamvault.fly.dev/badge/installs.json | jq -r '.message' | tr 'a-z' 'A-Z')
+          # only a number like 950, 3K+ or 3.1K+ — anything else leaves the README as it is
+          echo "$n" | grep -Eq '^[0-9]+(\.[0-9])?K\+$|^[0-9]+$' || { echo "unexpected: $n"; exit 0; }
+          sed -i -E "s#<!--installs-->[^<]*<!--/installs-->#<!--installs-->$n<!--/installs-->#" README.md
+      - name: Commit if it changed
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update StreamVault install count"
+          git push
