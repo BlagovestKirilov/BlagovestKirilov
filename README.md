@@ -16,7 +16,7 @@ I enjoy turning ideas into production-ready systems — from real-time multiplay
 
 **Databases & Caching:** PostgreSQL · MySQL · Redis · H2
 
-**Infrastructure:** Docker · Docker Compose · Nginx · AWS EC2 · Fly.io · GitHub Actions CI/CD
+**Infrastructure:** Docker · Docker Compose · Nginx · AWS EC2 · Fly.io · GitHub Actions CI/CD · Prometheus · Grafana
 
 **Integrations & Tools:** FFmpeg · AWS S3 · Expo Push Notifications · Liquibase · Swagger/OpenAPI · MapStruct · Lombok
 
@@ -40,17 +40,19 @@ A real-time online multiplayer platform for traditional Bulgarian games — **Sa
 ---
 
 ### 📡 [StreamVault IPTV](https://streamvault.fly.dev/configure)
-A **Stremio addon** that brings live TV into Stremio from an **Xtream Codes** account or an **M3U playlist** — on PC, Android, iOS, and TV.
+An addon that brings live TV into **Stremio** and **Nuvio** from an **Xtream Codes** account or an **M3U playlist** — on PC, Android, iOS, and TV.
 
-**Repository:** [StreamVault](https://github.com/BlagovestKirilov/StreamVault)
+**Repository:** [StreamVault](https://github.com/BlagovestKirilov/StreamVault) &nbsp; ![Installs](https://img.shields.io/endpoint?url=https%3A%2F%2Fstreamvault.fly.dev%2Fbadge%2Finstalls.json&style=flat-square&cacheSeconds=3600)
 
-- **2K+ installs**, 20K+ streams played, and 25K+ channel searches since May 2026
+- **3K+ installs**, 24K+ streams played, and 29K+ channel searches since May 2026
 - TV guide (**EPG**) showing what's on now and next, for Xtream Codes sources
-- Channel search and category filters to keep the library clean
+- **Catch-up** — watch recorded programmes from the past days, by programme or by hour
+- Channel search that works across Latin and Cyrillic, plus category filters
 - Connection test before installing, so bad credentials are caught early
-- Large playlists are streamed and parsed instead of loaded whole
+- Large playlists are streamed and parsed instead of loaded whole; settings stored encrypted
+- Monitoring with **Prometheus** and **Grafana**
 - **CI/CD**: GitHub Actions → Docker → Fly.io
-- **Stack**: Node.js · Express · Docker · Fly.io · Jest
+- **Stack**: Node.js · Express · Docker · Fly.io · Prometheus · Grafana · Jest
 
 ---
 
